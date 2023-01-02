@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {incrementCount} from "./counterSlice"
 
-// Moved to counterSlice.js *Now we have a good separation between our Redux-specific code and our React components!*
+// Moved to counterSlice.js *
 // function incrementCount(){
 //   return {type: "count/increment"}
 // }
